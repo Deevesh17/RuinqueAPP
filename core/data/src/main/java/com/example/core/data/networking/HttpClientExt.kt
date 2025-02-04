@@ -56,7 +56,7 @@ suspend inline fun <reified Response: Any> HttpClient.delete(
     }
 }
 
-suspend inline fun <reified T> safeCall(execute: () -> HttpResponse): Result<T, DataError.Network> {
+suspend inline fun <reified T>  safeCall(execute: () -> HttpResponse): Result<T, DataError.Network> {
     val response = try {
         execute()
     } catch(e: UnresolvedAddressException) {
