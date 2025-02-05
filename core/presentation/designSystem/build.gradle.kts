@@ -1,5 +1,4 @@
 plugins {
-    id("org.jetbrains.kotlin.plugin.compose")
     alias(libs.plugins.runique.android.library.compose)
 }
 
@@ -13,8 +12,10 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat.v170)
     implementation(libs.material.v1120)
-    implementation("androidx.compose.material3:material3-android:1.3.1")
+    implementation(libs.androidx.material3.android)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+
 }

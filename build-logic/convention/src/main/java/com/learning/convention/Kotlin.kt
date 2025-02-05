@@ -19,7 +19,7 @@ internal fun Project.configureKotlinJvm() {
 }
 
 internal fun Project.configureKotlinAndroid(
-    commonExtension: CommonExtension<*, *, *, *, *, *>
+    commonExtension: CommonExtension<*, *, *, *, *>
 ) {
     commonExtension.apply {
         compileSdk = libs.findVersion("projectCompileSdkVersion").get().toString().toInt()
