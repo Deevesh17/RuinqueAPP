@@ -2,6 +2,7 @@ package com.learning.ruinque
 
 import android.app.Application
 import com.example.auth.presentation.di.authViewModelModule
+import com.example.core.data.di.coreDataModule
 import com.learning.auth.data.di.authDataModule
 import com.learning.ruinque.di.appModule
 import org.koin.android.ext.koin.androidContext
@@ -22,7 +23,8 @@ class RuinqueApp: Application() {
             modules(
                 authDataModule,
                 authViewModelModule,
-                appModule
+                appModule,
+                coreDataModule
             )
         }
     }

@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="11">
-      <module name="build-logic.convention" target="21" />
-      <module name="build-logic.convention.main" target="21" />
-      <module name="build-logic.convention.test" target="21" />
-      <module name="Ruinque.app" target="21" />
-      <module name="Ruinque.auth.data" target="21" />
-      <module name="Ruinque.auth.presentation" target="21" />
-      <module name="Ruinque.core.data" target="21" />
-      <module name="Ruinque.core.database" target="21" />
-      <module name="Ruinque.core.presentation.designSystem" target="21" />
-      <module name="Ruinque.core.presentation.ui" target="21" />
-      <module name="Ruinque.run.data" target="21" />
-      <module name="Ruinque.run.location" target="21" />
-      <module name="Ruinque.run.network" target="21" />
-      <module name="Ruinque.run.presentation" target="21" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="11" />
   </component>
 </project>
